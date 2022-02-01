@@ -39,13 +39,24 @@ public class Main {
 		System.out.println("ListArray size after deletion "+ myStringArr.size());
 		System.out.println("-------- END REMOVE ---------\n");
 		
+		System.out.println("-------CONTAINS----------");
+		Boolean isCheck = myStringArr.contains("Eda");
+		System.out.println(isCheck);
+		System.out.println("-------END CONTAINS----------");
+		
+		System.out.println("-------INDEXOF----------");
+		int index = myStringArr.indexOf("Eda");
+		System.out.println("Index: " + index);
+		System.out.println("-------END INDEXOF----------\n");
+
 		System.out.println("-------CLEAR----------");
 		myStringArr.clear();
 		System.out.println("ListArray size after clear operation "+ myStringArr.size());
 		System.out.println("------- END CLEAR----------\n");
 		
-		
-
+		System.out.println("-------CONTAINS----------");
+		isCheck = myStringArr.contains("Eda");
+		System.out.println(isCheck);
+		System.out.println("-------END CONTAINS----------\n");
 	}
-
 }
